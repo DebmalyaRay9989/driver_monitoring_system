@@ -1,0 +1,117 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.expander-header {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+}
+
+.expander-content {
+    margin-left: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #2E3B4E; /* Darker sidebar for contrast */
+    color: #ffffff;
+}
+
+.sidebar .stButton, .sidebar .stCheckbox {
+    background-color: #4A90E2; /* Button color */
+    color: #ffffff; /* Button text color */
+}
+
+/* Text Styles */
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Placeholder Styles */
+.stImage {
+    border: 2px solid #4A90E2; /* Border around the video feed */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Metrics Display */
+.metric {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D2691E; /* Chocolate color for metrics */
+}
+
+/* Alert Styles */
+.warning {
+    background-color: #FFCC00; /* Bright yellow for warnings */
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Input Styles */
+.stSlider, .stCheckbox {
+    margin: 10px 0;
+}
+
+.stCheckbox > label {
+    color: #ffffff; /* White label color for better visibility */
+}
+
+/* Button Styles */
+.stButton > button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.stButton > button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+/* Landmarks */
+.landmark {
+    position: absolute;
+    border: 1px solid #FF4500; /* Orange for landmarks */
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #FF4500;
+}
+
+/* Placeholder Styles for Video Frame */
+.stImage {
+    border: 2px solid #ddd; /* Gray border */
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Alert Messages */
+.stWarning {
+    background-color: #ffcc00; /* Yellow */
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+

@@ -1,0 +1,206 @@
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Clear and readable font */
+    background-color: #f0f0f0; /* Light background for a fresh look */
+    color: #333; /* Default text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Title */
+h1 {
+    text-align: center; /* Centered title */
+    color: #4CAF50; /* Green color for title */
+    font-size: 2.5em; /* Larger font size for emphasis */
+    margin: 20px 0; /* Space above and below the title */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Expander Styles */
+.expander-header {
+    font-weight: bold; /* Bold headers */
+    font-size: 18px; /* Consistent header size */
+    color: #555; /* Dark grey for less emphasis */
+}
+
+/* Expander Content */
+.expander-content {
+    margin-left: 20px; /* Indentation for content */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #2E3B4E; /* Dark sidebar for contrast */
+    color: #ffffff; /* White text for better visibility */
+    padding: 20px; /* Padding for sidebar content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Shadow for elevation effect */
+    position: fixed; /* Fixed position for consistent visibility */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 250px; /* Set a fixed width */
+    height: 100%; /* Full height to the viewport */
+    overflow-y: auto; /* Scrollable if content exceeds height */
+}
+
+/* Sidebar Header */
+.sidebar h2 {
+    font-size: 1.5em; /* Font size for sidebar header */
+    margin-bottom: 15px; /* Space below the header */
+    text-align: center; /* Center align header */
+    color: #4CAF50; /* Green color for contrast */
+}
+
+/* Sidebar Links */
+.sidebar a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* No underline for links */
+    display: block; /* Make links block level */
+    padding: 10px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners for links */
+    margin: 5px 0; /* Vertical spacing between links */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Sidebar Link Hover Effect */
+.sidebar a:hover {
+    background-color: #3A74B7; /* Slightly darker blue on hover */
+}
+
+/* Sidebar Button Styles */
+.sidebar .stButton, .sidebar .stCheckbox {
+    background-color: #4A90E2; /* Button color */
+    color: #ffffff; /* Button text color */
+    border-radius: 5px; /* Rounded button edges */
+    padding: 10px 15px; /* Padding inside buttons */
+    margin: 5px 0; /* Vertical spacing between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer; /* Pointer on hover */
+    border: none; /* No border */
+}
+
+/* Hover Effects for Sidebar Buttons */
+.sidebar .stButton:hover, .sidebar .stCheckbox:hover {
+    background-color: #3A74B7; /* Slightly darker blue on hover */
+}
+
+
+/* Button Styles */
+.sidebar .stButton, .sidebar .stCheckbox {
+    background-color: #4A90E2; /* Button color */
+    color: #ffffff; /* Button text color */
+    border-radius: 5px; /* Rounded button edges */
+    padding: 10px 15px; /* Padding inside buttons */
+    margin: 5px 0; /* Vertical spacing between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer; /* Pointer on hover */
+    border: none; /* No border */
+}
+
+/* Hover Effects for Sidebar Buttons */
+.sidebar .stButton:hover, .sidebar .stCheckbox:hover {
+    background-color: #3A74B7; /* Slightly darker blue on hover */
+}
+
+/* Text Styles */
+.text {
+    font-size: 16px; /* Base text size */
+    line-height: 1.5; /* Line height for readability */
+    margin: 10px 0; /* Margin around text */
+}
+
+/* Placeholder Styles */
+.stImage {
+    border: 2px solid #4A90E2; /* Blue border around the video feed */
+    border-radius: 8px; /* Rounded corners for video frame */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Metrics Display */
+.metric {
+    font-size: 18px; /* Larger font for metrics */
+    font-weight: bold; /* Bold for emphasis */
+    color: #D2691E; /* Chocolate color for metrics */
+}
+
+/* Alert Styles */
+.warning {
+    background-color: #FFCC00; /* Bright yellow for warnings */
+    color: #000; /* Black text */
+    padding: 10px; /* Padding for alert messages */
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 10px; /* Space above alerts */
+}
+
+/* Input Styles */
+.stSlider, .stCheckbox {
+    margin: 10px 0; /* Spacing around inputs */
+}
+
+.stCheckbox > label {
+    color: #ffffff; /* White label color for better visibility */
+}
+
+/* Landmarks */
+.landmark {
+    position: absolute; /* Absolute positioning for landmarks */
+    border: 1px solid #FF4500; /* Orange for landmarks */
+    border-radius: 50%; /* Circular landmarks */
+    width: 5px; /* Size of landmarks */
+    height: 5px; /* Size of landmarks */
+    background-color: #FF4500; /* Orange fill */
+}
+
+/* Alert Messages */
+.stWarning {
+    background-color: #ffcc00; /* Yellow for warnings */
+    color: #333; /* Dark text */
+    padding: 10px; /* Padding inside warning messages */
+    border-radius: 5px; /* Rounded edges */
+    margin: 10px 0; /* Spacing above and below */
+}
+
+/* Button Styles for General Use */
+.stButton > button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for buttons */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Inline block for layout */
+    margin: 4px 2px; /* Margin for spacing */
+    border-radius: 5px; /* Rounded button edges */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover Effects for General Buttons */
+.stButton > button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Add Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Slightly smaller font size for mobile */
+    }
+    
+    h1 {
+        font-size: 2em; /* Adjust title size for mobile */
+    }
+    
+    .sidebar {
+        padding: 15px; /* Reduced padding for mobile */
+    }
+
+    .sidebar .stButton, .sidebar .stCheckbox {
+        padding: 8px; /* Reduced padding for buttons on mobile */
+    }
+
+    .metric {
+        font-size: 16px; /* Adjust metric size for mobile */
+    }
+}
+
+
