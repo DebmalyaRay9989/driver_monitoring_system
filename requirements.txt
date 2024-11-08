@@ -1,6 +1,7 @@
 streamlit
 opencv-python
 mediapipe
+fer
 numpy
 pandas
 matplotlib
