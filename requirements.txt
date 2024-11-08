@@ -4,4 +4,5 @@ mediapipe
 fer
 numpy
 pandas
+tensorflow
 matplotlib
