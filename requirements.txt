@@ -1,10 +1,11 @@
-
 streamlit
-opencv-python-headless
-face-recognition
+opencv-python
 mediapipe
 fer
 numpy
 pandas
 tensorflow
 matplotlib
+scipy
+scikit-learn
+gunicorn
